@@ -60,7 +60,7 @@ public class QuickSort {
 		} else {
 			if (l > r) {
 				return left;
-			} else if (l > r) {
+			} else if (m > r) {
 				return right;
 			} else {
 				return mid;
